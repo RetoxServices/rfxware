@@ -193,23 +193,23 @@ const ProjectDetail = ({ params }: ProjectDetailProps) => {
               </h2>
               <div className="space-y-3">
                 <a 
-                  href={`https://github.com/example/${project.title.toLowerCase().replace(/\s+/g, '-')}`}
+                   href="https://discord.gg/rfxware"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-gray-300 hover:text-primary transition-colors"
                 >
-                  <i className="fab fa-github mr-2"></i> View Source Code
+                  <i className="fab fa-github mr-2"></i> Visit our Github(soon)
                 </a>
                 <a 
-                  href={`https://example.com/docs/${project.title.toLowerCase().replace(/\s+/g, '-')}`}
+                  href="https://discord.gg/rfxware"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-gray-300 hover:text-primary transition-colors"
                 >
-                  <i className="fas fa-book mr-2"></i> Documentation
+                  <i className="fas fa-book mr-2"></i> Documentation (soon)
                 </a>
                 <a 
-                  href="https://discord.gg/example"
+                  href="https://discord.gg/rfxware"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-gray-300 hover:text-primary transition-colors"
