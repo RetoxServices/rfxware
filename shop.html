@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting to Shop | DevPortal</title>
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shop-redirect-container">
+    <div class="shop-redirect-card">
+      <div class="shop-icon">
+        <i class="fas fa-shopping-cart"></i>
+      </div>
+      <h1>Redirecting to Shop</h1>
+      <p>
+        You're being redirected to our online shop. If you're not redirected automatically, please click the button below.
+      </p>
+      <div class="shop-buttons">
+        <a href="https://example-shop.com" target="_blank" class="primary-button">Go to Shop</a>
+        <a href="index.html" class="outline-button">Return to DevPortal</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Auto redirect after 2 seconds
+    setTimeout(function() {
+      window.location.href = "https://example-shop.com";
+    }, 2000);
+  </script>
+</body>
+</html>
