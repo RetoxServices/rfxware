@@ -3,29 +3,30 @@ document.addEventListener('DOMContentLoaded', function() {
   // Project data for the detailed view
   const projectData = {
     "1": {
-      title: "Quantum Marketplace",
-      description: "A next-gen digital marketplace with immersive 3D product previews.",
-      videoId: "dQw4w9WgXcQ", // Example YouTube video ID
-      features: [
-        "Real-time 3D product visualization",
-        "Immersive AR product previews",
-        "Secure blockchain transactions",
-        "AI-powered product recommendations"
-      ],
-      technologies: ["React", "Three.js", "MongoDB", "WebGL"],
-      longDescription: `The Quantum Marketplace represents a quantum leap in online shopping experiences, 
-        featuring immersive 3D product previews that allow customers to fully 
-        experience products before purchase. 
-        
-        Using cutting-edge WebGL and Three.js technologies, we've created a system
-        that renders high-fidelity 3D models in real-time, directly in the browser.
-        This eliminates the need for special apps or plugins while providing an
-        unparalleled shopping experience.
-        
-        The backend uses MongoDB for flexible data storage and a custom API layer
-        built with Node.js and Express to handle product information, user accounts,
-        and transaction processing.`
-    },
+    title: "Rust External",
+    description: "A high quality external Rust Cheat.",
+    videoId: "dQw4w9WgXcQ", // Example YouTube video ID
+    features: [
+      "Memory Reading/Writing",
+      "Player and Prefab ESP",
+      "Player Exploits",
+      "Material Chams (through walls)"
+    ],
+    technologies: ["C++", "ImGui", "IDA", "VS2022"],
+    longDescription: `
+      Our Rust External Cheat deliveres a wide variate of features, 
+      including an indepth Player ESP with name,distance,weapon and their 
+      current Team. 
+      
+      You can mark Players as friends(8) or as enemies(9) or just let them be 
+      automaticly assigned if they are in your team.
+      You are able to see the enemies hotbar and predict their next move.
+      
+      Finding Materials and Crates was never easier with our World ESP.
+      U can see every Item dropped so you never miss an weapon on the floor again.
+      
+    `
+  },
     "2": {
       title: "Neural Canvas",
       description: "AI-powered creative suite for generating and editing artwork.",
@@ -211,14 +212,14 @@ document.addEventListener('DOMContentLoaded', function() {
               <i class="fas fa-link"></i> Related Links
             </h2>
             <div class="links-list">
-              <a href="https://github.com/example/${project.title.toLowerCase().replace(/\s+/g, '-')}" target="_blank" class="link-item">
-                <i class="fab fa-github"></i> View Source Code
-              </a>
-              <a href="https://example.com/docs/${project.title.toLowerCase().replace(/\s+/g, '-')}" target="_blank" class="link-item">
-                <i class="fas fa-book"></i> Documentation
+              <a href="https://discord.gg/example" target="_blank" class="link-item">
+                <i class="fab fa-github"></i> Visit out Github(soon)
               </a>
               <a href="https://discord.gg/example" target="_blank" class="link-item">
-                <i class="fab fa-discord"></i> Join Discussion
+                <i class="fas fa-book"></i> Documentation(soon)
+              </a>
+              <a href="https://discord.gg/rfxware" target="_blank" class="link-item">
+                <i class="fab fa-discord"></i> Join Discord
               </a>
             </div>
           </div>
